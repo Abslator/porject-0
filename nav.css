@@ -1,7 +1,9 @@
 nav a{
-    color: black;
+    color:  #646464;
     margin: 20px;
     text-decoration: none;
+    font-family: Arial;
+    font-size: small;
 }
 body{
     margin: 0px;
@@ -10,9 +12,10 @@ body{
 nav{
     display: flex;
     flex-flow: row-reverse;
-    background-color: rgba(211, 211, 211, 0.4);
+    background-color: white;
 
 }
 nav a:hover{
-    color: rgb(25,12, 214);
+    color: black;
+    text-decoration: underline;
 }
