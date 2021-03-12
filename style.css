@@ -34,18 +34,18 @@
     width: 15px;
     margin-left:-40px; 
 }
-.button-container{
+.btn-container{
     margin-top:2%;
 }
 
-.search-button{
+.search-btn{
     height: 40px;
     border:none;
     color: #646464;
     background: #f2f2f2;
 }
 
-.search-button:hover{
+.search-btn:hover{
     color:rgb(37, 37, 37);
     border:1px solid lightgray;
 }
