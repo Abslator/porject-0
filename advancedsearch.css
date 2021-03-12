@@ -1,57 +1,106 @@
-.container{
-    margin : 0 40px;
-}
 body{
-    color:rgb(39, 38, 38)
+  margin: 0px;
+  height: 100vh;
+  font-family: Arial, sans-serif;
 }
-h4{
-    color:#DB4437;
-    font-weight: 200;
-    font-size:24px;
-    font-family: Arial, Helvetica, sans-serif;
+input[type=text]{
+  color: #464646;
+  margin: 0 0 0 5px;
 }
-hr{
-   color: rgb(233, 232, 232,0.3) 
+input[type=submit] {
+  font-size: 14px;
+  width: 185px;
+  border-width: 0px;
+  border-radius: 15px;
+  margin: 20px;
 }
-h5, .grid-item-heading{
-    font-weight: 500;
-    font-size: 16px;
-    font-family: Arial, sans-serif;
+input[type=submit]:hover {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
 }
-.main-header{
-    grid-column-start: 1;
-    grid-column-end: 3;
+input.blue-button {
+  background-color: dodgerblue;
+  color: white;
+  font-size: smaller;
+  max-width: 200px;
+  border-radius: 0px;
+  border: 1px solid #156bbd;
+  float: right;
+  padding: 10px 2px;
+  margin: 0;
 }
-.grid{
-    display: grid;
-    grid-template-columns: 200px 700px auto;
-    column-gap: 10px;
-    row-gap:10px;
+.header-links, .header-advanced-logo, .header-advanced {
+  display: flex;
+  align-items: center;
 }
-label {
-    font-family: Arial, sans-serif;
-    font-size: 13px;
+.header-links a, .header-advanced-logo a, .header-advanced a {
+  color: #646464;
+  padding: 10px;
+  text-decoration: none;
 }
-.second-label{
-    font-size:14px;
-    color:gray
+.header-links a:hover{
+  color: black;
+  text-decoration: underline;
 }
-.inp{
-    width: 90%;
+.header-advanced {
+  background-color: #f1f1f1;
+  height: 50px;
 }
-.num-inp{
-    width: 41.5%;
+.header-advanced-logo {
+  padding: 10px;
 }
-.heading{
-    grid-column-start: 1;
-    grid-column-end: 4;
+.header-advanced-logo img {
+  height: 30px;
 }
-button[type="submit"]{
-    background-color: #4285F4;
-    color:white;
-    padding:10px;
-    border-radius: 5px;
-    outline: none;
-    margin-left:49%;
-    margin-top: 2%;
+.header-links {
+  margin-left: auto;
 }
+.appbar {
+  margin: 30px 10px;
+}
+.appbar label {
+  color: #d93025;
+  font-size: 20px;
+  margin: 50px 30px;
+}
+.separator-line {
+  border-bottom: solid 1px #d6d6d6;
+}
+.advanced-search-container {
+  margin: 50px 40px;
+}
+.advanced-search-container label {
+  display: inline-block;
+  width: 16%;
+  font-size: 20px;
+}
+.advanced-search-container .whitespace {
+  display: inline-block;
+  width: 50%;
+}
+.advanced-search-container .form-group {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px 0;
+}
+.advanced-search-container .form-group label {
+  width: 16%;
+  font-size: 14px;
+}
+.advanced-search-container .form-group input[type=text] {
+  width: 49%;
+  padding: 2px 0;
+}
+.advanced-search-container .form-group .clarification {
+  font-size: 11px;
+  width: 30%;
+  margin-left: 1%;
+}
+.advanced-search-container .form-group .clarification .monospace {
+  font-family: monospace;
+}
+.advanced-search-container .form-group .right-align {
+  width: 50%;
+}
+  
+  
